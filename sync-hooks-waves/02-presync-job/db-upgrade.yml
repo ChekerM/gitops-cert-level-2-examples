@@ -10,7 +10,7 @@ spec:
     spec:
       containers:
       - name: dummy-run
-        image: alpine
+        image: alpine85
         command:
           - "sleep"
           - "10"
