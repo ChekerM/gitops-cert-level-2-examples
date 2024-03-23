@@ -10,9 +10,10 @@ spec:
     spec:
       containers:
       - name: dummy-run
-        image: alpine85
+        image: alpine
         command:
-          - "sleep"
-          - "10"
+          - "sh"
+          - "-c"
+          - "exit 1"
       restartPolicy: Never
   backoffLimit: 2    
